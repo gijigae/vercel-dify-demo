@@ -666,3 +666,7 @@ const Main: FC = () => {
 }
 
 export default React.memo(Main)
+
+export type IMainProps = {
+  params: any // Adjust the type as needed
+}

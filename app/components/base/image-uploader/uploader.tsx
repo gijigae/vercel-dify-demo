@@ -93,6 +93,7 @@ const Uploader: FC<UploaderProps> = ({
         accept='.png, .jpg, .jpeg, .webp, .gif'
         onChange={handleChange}
         disabled={disabled}
+        aria-label='Upload image'
       />
     </div>
   )
